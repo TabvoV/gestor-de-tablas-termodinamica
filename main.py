@@ -14,7 +14,7 @@
 from tkinter import *
 from tkinter import  ttk
 from tkinter import messagebox
-from Kernel import *
+from nucleo import *
 from Funciones import *
 from Tooltips import *
 
@@ -24,7 +24,7 @@ from Tooltips import *
 #########################################################################################################################################
 
 root=Tk()
-root.title("Gestor de tablas de Termodinámica v0.1")
+root.title("Gestor de tablas de Termodinámica v1.0")
 root.resizable(False,False)
 root.iconbitmap(resolver_ruta("./Images/icono.ico"))
 root.config(width="1000", height ="450", bg="#404352")
