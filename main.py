@@ -479,17 +479,17 @@ class CuadroDeIngresoVariableSecundaria():
 #########################################################################################################################################
 #GENERACIÓN DE PANTALLA ROOT
 #########################################################################################################################################
+if __name__ == "__main__":
+    menu_Tablas=MenuDesplegable(1,1,opciones)
+    menu_Tablas.mostrar()
 
-menu_Tablas=MenuDesplegable(1,1,opciones)
-menu_Tablas.mostrar()
+    BotonDeRefresco=Botones(5,2, "Refrescar")
+    BotonDeRefresco.Mostrar()
 
-BotonDeRefresco=Botones(5,2, "Refrescar")
-BotonDeRefresco.Mostrar()
+    BotonDeBusqueda=Botones(5,4, "Búsqueda")
+    BotonDeBusqueda.BotonBusqueda()
 
-BotonDeBusqueda=Botones(5,4, "Búsqueda")
-BotonDeBusqueda.BotonBusqueda()
-
-refrescar(numeroPantallaInicial,True)
+    refrescar(numeroPantallaInicial,True)
 
 
 
